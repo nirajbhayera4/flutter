@@ -230,6 +230,10 @@ class TextTheme with Diagnosticable {
   /// content body, like captions.
   final TextStyle? labelSmall;
 
+  static var lightTheme;
+
+  static var darkTheme;
+
   /// Creates a copy of this text theme but with the given fields replaced with
   /// the new values.
   ///
