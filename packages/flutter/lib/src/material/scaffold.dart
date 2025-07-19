@@ -1688,7 +1688,7 @@ class _FloatingActionButtonTransitionState extends State<_FloatingActionButtonTr
 ///  * Cookbook: [Add a Drawer to a screen](https://docs.flutter.dev/cookbook/design/drawer)
 class Scaffold extends StatefulWidget {
   /// Creates a visual scaffold for Material Design widgets.
-  const Scaffold({
+  const Scaffold(required PageView body, {
     super.key,
     this.appBar,
     this.body,
